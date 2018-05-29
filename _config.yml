@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Webjeda Cards is a Bootstrap based jekyll theme for portfolio, photography or any kind of blog.
   
   
-baseurl: "/cards" # the subpath of your site, e.g. /blog
+#baseurl: "/cards" # the subpath of your site, e.g. /blog
 url: "http://phanakata.github.io/" # the base hostname & protocol for your site
 
 #sidebar
@@ -28,15 +28,15 @@ copyright:
 
 # Build settings
 markdown: kramdown
-permalink: /:title/
+#permalink: /:title/
 paginate: 6
-paginate_path: /page:num/
+#paginate_path: /page:num/
 
 # Tracker
 analytics: UA-83979019-1
 
 # Comments
-disqus: yes
+disqus: false
 disqus-shortname: webjeda-demo
 
 #social
@@ -57,7 +57,7 @@ sass:
   style: compressed
 
 # Ruby Gems
-plugins: [jekyll-paginate, jekyll-seo-tag]
+#plugins: [jekyll-paginate, jekyll-seo-tag]
 
 
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
